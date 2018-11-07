@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::any('{all}', function () {
+    return view('main');  //返回模板首頁
+})->where(['all' => '.*']);
