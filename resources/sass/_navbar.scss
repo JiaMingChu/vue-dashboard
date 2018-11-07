@@ -67,11 +67,11 @@
   .nav-item {
     .nav-link {
       color: fade-out($white, 0.5);
-      &:active,
-      &:focus,
-      &:hover {
-        color: fade-out($white, 0.25);
-      }
+      // &:active,
+      // &:focus,
+      // &:hover {
+      //   color: fade-out($white, 0.25);
+      // }
     }
   }
   &.toggled {

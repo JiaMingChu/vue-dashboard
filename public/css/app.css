@@ -10510,6 +10510,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .scroll-to-top {
   position: fixed;
+  padding: 20px;
   right: 15px;
   bottom: 15px;
   display: none;
@@ -10635,12 +10636,6 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .sidebar .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.5);
-}
-
-.sidebar .nav-item .nav-link:active,
-.sidebar .nav-item .nav-link:focus,
-.sidebar .nav-item .nav-link:hover {
-  color: rgba(255, 255, 255, 0.75);
 }
 
 .sidebar.toggled {

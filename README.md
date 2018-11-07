@@ -1,1 +1,1 @@
-# vue-dashboard
+# laravel Vue SPA prototype
